@@ -1,0 +1,117 @@
+{
+    "Plantas":
+    {
+    "nome":"Soja",
+    "tempo_crescimento":"5",            #PLANTA
+    "espécie":"Glycine max",
+    }
+  }
+
+  {
+    "maquinario":
+    {
+    "codigo_chassi":"4141",
+    "marca":"AGCO",
+    "funcao":"triturador",          #MAQINARIO
+    "funcionario" : {
+       "nome:":"kotaka"                   
+       "funcao":"arrar"
+       "cpf":"1341916546"
+      },
+    }
+  }
+  {
+    "SiloDeVenda":
+     {
+    "codigo" : "14155"
+    "quantidade": "February"        #SILOVENDA
+    "Plantas":
+        {
+        "nome":"Soja",
+        "tempo_crescimento":"5",
+        "espécie":"Glycine max",
+    }
+     
+     }
+  }
+  {
+    "funcionario" : 
+    {
+    "nome:":"kotaka"                   
+    "funcao":"arrar"        #FUNCIONARIO
+    "cpf":"1341916546"
+      }
+    }
+  }
+  
+  {
+    "comprador":
+    {
+    "loja":"girassol"
+    "Plantas":                  #COMPRADOR
+        {
+        "nome":"Soja",
+        "tempo_crescimento":"5",
+        "espécie":"Glycine max",
+    }
+  }
+   
+  {
+    "Fornecedor":
+    {
+    "cnpj":"5151514515",
+    "nome_dono":"kleber",               #FORNECEDOR
+    "animal":
+        {
+        "espécie_animalia":"vaca",
+        "producao":"leite",
+        "tipo_comida":"grama",
+    }
+    }
+  }
+  
+  {
+    "animal":
+     {
+    "espécie_animalia":"vaca",      #ANIMAL
+    "producao":"leite",
+    "tipo_comida":"grama",  
+    }
+  }
+  
+  {
+    "lote":
+      {
+    "tamanho":"251",
+    "codigo":"65465464",
+                                    #LOTE
+    "Plantas":
+        {
+        "nome":"Soja",
+        "tempo_crescimento":"5",
+        "espécie":"Glycine max",
+    
+    "Fornecedor":
+        {
+        "cnpj":"5151514515",
+        "nome_dono":"kleber",               
+      }
+     
+  }
+  
+  {
+    "Estoque":[
+    {
+    "quantidade":"156",
+    "codigo_estoque":"45532",
+    "Plantas":                          #VENDA
+        {
+        "nome":"Soja",
+        "tempo_crescimento":"5",
+        "espécie":"Glycine max",
+    
+   
+    }
+    ] 
+  }
+
